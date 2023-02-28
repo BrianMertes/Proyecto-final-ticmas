@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="light.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="bloque" id="bloque">
+            <p class="logo">H.Rose</p>
+            <nav>
+                <a href="#sobre-mi">Sobre mi</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#experiencia">Experiencia</a>
+                <button id="boton" onclick="Darkmode()"> <p id="b1">dark mode</p> <p id="b2">light mode</p></button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="presentacion">
+       <h1>Harry Rose</h1>
+       
+       <h2>programador web</h2>
+    </section>
+
+    <section id="sobre-mi">
+        <div class="bloque">
+            <h1>Sobre mi</h1>
+            <h2><span>Nombre</span>: Harry Rose</h2>
+            <h2><span>Email</span>: harry.rose@example.com</h2>
+            <h2><span>fecha de nacimiento</span>: 12/1/1957</h2>
+            <h2><span>Direccion</span>: 653 Hillcrest Rd</h2>
+            <h2><span>Telefono</span>: (368) 670-1667</h2>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="bloque">
+            <h1>Habilidades</h1>
+            <div class="habilidad">
+                <div class="carta">
+                    <h3>HTML</h3>
+                    <p id="carta1">habilidad adquirida gracias a cursos online de "ticmas academy" <br> y mejorada gracias a proyectos en conjunto con empresas</p>
+                    <button onclick="mostrar1()">mas info</button>
+                </div>
+                <div class="carta">
+                    <h3>CSS</h3>
+                    <p id="carta2">habilidad adquirida gracias a cursos online de "ticmas academy" <br> y mejorada gracias a proyectos en conjunto con empresas</p>
+                    <button id="bot2" onclick="mostrar2()">mas info</button>
+                </div>
+                <div class="carta">
+                    <h3>Javascript</h3>
+                    <p id="carta3">habilidad adquirida gracias a cursos online de "ticmas academy" <br> y mejorada gracias a proyectos en conjunto con empresas</p>
+                    <button id="bot3" onclick="mostrar3()">mas info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <div class="bloque">
+            <div class="img-exp"></div>
+            <div class="texto-exp">
+                <h1>Experiencia</h1>
+            <h2><span>2012-2014</span> : programador web freelance</h2>
+            <h2><span>2014-2017</span>: programador frontend en amazon</h2>
+            <h2><span>2017-2020</span>: programador fullstack en microsoft</h2>
+            <h2><span>2020-actualidad</span>: programador fullstack en google</h2>
+            </div>
+        </div>
+    </section>
+
+    <footer>©Henry Rose 2023</footer>
+
+    <link id="Dark-mode" rel='stylesheet' href='light.css' type='text/css'>
+    <script src="index.js"></script>
+</body>
+</html>
